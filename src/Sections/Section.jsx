@@ -43,7 +43,7 @@ function Sections() {
     }, [index, deleting, text]);
 
     return (
-        <div className={`flex flex-row justify-between items-center relative top-10 border p-3 rounded-2xl ${isdark ? "bg-slate-800/40" : "bg-white"} border border-gray-500`}>
+        <div className={`flex flex-row justify-between items-center relative top-10 border p-3 rounded-2xl ${isdark ? "bg-slate-800/40" : "bg-white"}`}>
 
             <section className={`flex flex-col max-w-xl text-left ${isdark ? 'text-white' : 'text-black'}`}>
 
