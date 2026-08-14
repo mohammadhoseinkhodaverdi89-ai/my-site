@@ -1,12 +1,15 @@
 import useBackGroundChange from "../Handler-bg/Handler";
-import Photo1 from "./Photo/Gemini_Generated_Image_d6n8sfd6n8sfd6n8.png";
-import Photo2 from "./Photo/Gemini_Generated_Image_7f8olb7f8olb7f8o.png";
-import Photo3 from "./Photo/Gemini_Generated_Image_qs4cuoqs4cuoqs4c.png";
-import Photo4 from "./Photo/Gemini_Generated_Image_a0ou4pa0ou4pa0ou.png";
-import Photo5 from "./Photo/Gemini_Generated_Image_9ydjmw9ydjmw9ydj.png";
-import Photo6 from "./Photo/Gemini_Generated_Image_rxd43wrxd43wrxd4.png";
 import { motion, scale } from "framer-motion";
 import { div } from "framer-motion/client";
+import Photo1 from './Photo/full-moon-forest-night-dark-starry-sky-5k-8k-3840x2160-1684-removebg-preview.png'
+import Photo2 from './Photo/Gemini_Generated_Image_a0ou4pa0ou4pa0ou-removebg-preview.png'
+import Photo3 from './Photo/Gemini_Generated_Image_qs4cuoqs4cuoqs4c-removebg-preview.png'
+import Photo4 from './Photo/ppp.png'
+import Photo5 from './Photo/images-removebg-preview.png'
+import Photo6 from './Photo/wddadwa.png'
+import Photo7 from './Photo/OIP-removebg-preview.png'
+import Photo8 from './Photo/OIP-removebg-preview.png'
+import Photo9 from './Photo/typescript-768x432-removebg-preview.png'
 const AnimationContainer = {
   hidden: { opacity: 0, y: 40 },
   visible: {
@@ -32,7 +35,7 @@ const itemVariants = {
   },
 };
 function Skil() {
-  const photos = [Photo1, Photo2, Photo3, Photo4, Photo5, Photo6];
+  const photos = [Photo1, Photo7, Photo4, Photo3, Photo2, Photo6,Photo5,,Photo9 ];
   return (
     <motion.div
       variants={AnimationContainer}
