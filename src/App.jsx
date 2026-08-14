@@ -2,6 +2,7 @@ import Header from "./Header/Header";
 import useBackGroundChange from "./Handler-bg/Handler";
 import Sections from "./Sections/Section";
 import About from './About/About'
+import Skill from './Skils/Skil'
 function App() {
   const isdark = useBackGroundChange((state) => state.isdark)
 return(
@@ -9,6 +10,7 @@ return(
     <Header />
     <Sections />
     <About />
+    <Skill />
   </div>
 )
 }
