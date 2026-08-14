@@ -44,7 +44,7 @@ function Skil() {
       className="md:px-10 lg:px-15"
     >
       <div className="flex items-center text-gray-500 font-bold text-lg mt-15">
-        <h2>Skill</h2>
+        <h2 className="mb-4">Skill</h2>
       </div>
       <div className="flex gap-3">
         {photos.map((item, index) => (
