@@ -4,6 +4,7 @@ import { CiCircleMinus } from "react-icons/ci";
 import { MdEmail } from "react-icons/md";
 import { FaMale } from "react-icons/fa";
 import { motion } from 'framer-motion';
+
 function About() {
     const isdark = useBackGroundChange((state) => state.isdark)
     return (

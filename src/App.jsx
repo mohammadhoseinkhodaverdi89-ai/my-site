@@ -5,6 +5,7 @@ import About from './About/About'
 import Skill from './Skils/Skil'
 import Project from "./My-project/Project";
 import Experiens from "./Expreiens/Experiens";
+import Footer from './Footer/footer'
 function App() {
   const isdark = useBackGroundChange((state) => state.isdark)
 return(
@@ -15,6 +16,7 @@ return(
     <Skill />
     <Project />
     <Experiens />
+    <Footer />
   </div>
 )
 }
