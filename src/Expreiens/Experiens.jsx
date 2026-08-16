@@ -40,7 +40,7 @@ const children = {
     initial="hidden"
     whileInView="invisible"
     className={`mt-16 ${isdark ? "text-white" : "text-black"} md:px-10 lg:px-15`}>
-      <h2 className="mb-4">My-Experiens</h2>
+      <h2 className="mb-4 font-bold text-gray-500">My-Experiens</h2>
     <motion.div 
     variants={children}
 
