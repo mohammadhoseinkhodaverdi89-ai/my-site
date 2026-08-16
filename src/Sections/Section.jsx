@@ -43,7 +43,7 @@ function Sections() {
     }, [index, deleting, text]);
 
     return (
-        <div className={`flex flex-row justify-between items-center relative top-10 lg:mx-5 md:mx-10 md:px-5 lg:px-10 rounded-2xl bg-slate-700/20 border border-slate-700/30`}>
+        <div className={`flex flex-row justify-between items-center relative top-10 lg:mx-5 md:mx-10 md:px-5 lg:px-10 rounded-2xl bg-slate-700/20 border border-slate-700/30 mt-16`}>
 
             <section className={`flex flex-col max-w-xl text-left ${isdark ? 'text-white' : 'text-black'}`}>
 
