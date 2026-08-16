@@ -16,7 +16,7 @@ const AnimationContainer = {
     opacity: 1,
     y: 0,
     transition: {
-      durction: 0.5,
+      durction: 0.7,
       staggerChildren: 0.15,
     },
   },

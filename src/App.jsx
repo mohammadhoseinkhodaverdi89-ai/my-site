@@ -4,6 +4,7 @@ import Sections from "./Sections/Section";
 import About from './About/About'
 import Skill from './Skils/Skil'
 import Project from "./My-project/Project";
+import Experiens from "./Expreiens/Experiens";
 function App() {
   const isdark = useBackGroundChange((state) => state.isdark)
 return(
@@ -13,6 +14,7 @@ return(
     <About />
     <Skill />
     <Project />
+    <Experiens />
   </div>
 )
 }
